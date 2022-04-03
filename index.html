@@ -4,17 +4,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
     <title>Document</title>
 </head>
 <body>
     <div class="wrapper">
         <header class="header">
-          <ul class="navigation">
+          <!-- <ul class="navigation">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Products</a></li>
             <li><a href="#">Contact</a></li>
-          </ul>
+          </ul> -->
+
+          <div class="topnav">
+            <a class="active" href="#home">LOGO</a>
+          
+            <div id="sidePanel" class="topnav-right">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="#news">News</a>
+              <a href="#contact">Contact</a>
+              <a href="#search">Search</a>
+              <a href="#about">About</a>
+            </div>
+            <button class="openbtn" onclick="openNav()">&#9776; </button>
+          </div>
         </header>
         <article class="main">
           <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>  
@@ -23,5 +37,16 @@
         <aside class="aside aside-2">Aside 2</aside>
         <footer class="footer">Footer</footer>
       </div>
+
+      <script>
+        function openNav() {
+    document.getElementById("sidePanel").style.width = "250px";
+  }
+  
+  /* Set the width of the sidebar to 0 (hide it) */
+  function closeNav() {
+    document.getElementById("sidePanel").style.width = "0";
+  }
+      </script>
 </body>
 </html>
