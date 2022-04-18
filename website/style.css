@@ -1,5 +1,5 @@
 *{
-font-family: 'Poppins';
+font-family: 'Cera Round Pro';
 
 }
 
@@ -8,6 +8,8 @@ font-family: 'Poppins';
     flex-flow: row wrap;
     /* font-weight: bold; */
     /* text-align: center;  */
+    background: #eae7dc;
+    
   }
   
   .wrapper > * {
@@ -16,17 +18,19 @@ font-family: 'Poppins';
   }
   
   .header {
-    background: #8E6C6C;
+    background: #edc7b7;
   }
   
   .footer {
-    background: #8E6C6C;
+    background: #edc7b7;
+    
     text-align: center;
   }
   
   .main {
     text-align: left;
     /* background: deepskyblue; */
+    padding: 60px;
   }
   
  
@@ -94,7 +98,7 @@ font-family: 'Poppins';
     /* padding: 8px 8px 8px 32px; */
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    
     display: block;
     transition: 0.3s;
   }
@@ -126,22 +130,24 @@ font-family: 'Poppins';
 }
 
 .topnav {
-  background-color: #8E6C6C;
+  background-color:#edc7b7;
+  
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
 float: left;
-color:  black;
+color:  #183153;
 text-align: center;
 /* padding: 14px 16px; */
 text-decoration: none;
 font-size: 17px;
-background-color: #c4c4c4;
+/* background-color: #c4c4c4; */
 margin-right: 20px;
 padding: 10px 20px;
-border-radius: 20px;
+/* border-radius: 20px; */
+
 }
 
 /* Change the color of links on hover */
@@ -196,6 +202,7 @@ display: flex;
 /* Create an active/current tablink class */
 .tab button.active {
   background-color: #ccc;
+  
 }
 
 /* Style the tab content */
@@ -309,7 +316,7 @@ button::after {
   .blog_post {
     position: relative;
     /* padding: 6rem 3rem 6rem 6rem; */
-    background: #fff;
+    background: #eae7dc;
     /* max-width: 400px; */
     /* border-radius: 10px; */
     /* top: 50%;
@@ -356,8 +363,11 @@ button::after {
     /* margin: 0 0 1rem 0; */
     font-size: 1.5rem;
     /* letter-spacing: 0.5px; */
-    color: #333;
+    color: #183153;
+    
   }
+
+ 
   
   p {
     /* margin: 0 0 4.5rem 0; */
@@ -368,7 +378,7 @@ button::after {
   .btn_primary {
     border: none;
     outline: none;
-    background: linear-gradient(90deg, #ff9966, #ff5e62);
+    background: #ef9273;
     padding: 0.5rem 1rem;
     border-radius: 50px;
     color: white;
