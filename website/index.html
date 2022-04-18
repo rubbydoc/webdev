@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../website/script.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css" />
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet" />
     <title>Document</title>
@@ -27,10 +27,10 @@
            -->
             <div id="sidePanel" class="topnav-right">
               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-              <button type="button" class="fill"><a href="#confess">CONFESS NOW</a></button>
-              <button type="button" class="fill"><a href="#advice">ASK ADVICE</a></button>
-              <button type="button" class="fill"> <a href="#cate">CATEGORIES</a></button>
-              <button type="button" class="fill">  <a href="#profile">PROFILE</a></button>
+              <a href="#confess">CONFESS NOW</a>
+              <a href="#advice">ASK ADVICE</a>
+               <a href="#cate">CATEGORIES</a>
+                <a href="#profile">PROFILE</a>
              
             </div>
             <button class="openbtn" onclick="openNav()">&#9776; </button>
@@ -38,12 +38,22 @@
         </header>
         <article class="main">
           <div class="tab">
-            <button class="tablinks active" onclick="openCity(event, 'London')">London</button>
-            <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+            <button class="tablinks active" onclick="openCity(event, 'London')">CONFESSIONS</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">ADVICES</button>
           </div>
           <div id="London" class="tabcontent">
-            <h3>London</h3>
-            <p>London is the capital city of England.</p>
+            <div class="wrapper">
+              <div class="blog_post">
+                
+                <div class="container_copy">
+                 
+                  <h1>Confession Title</h1>
+                  <p>The position property specifies the type of positioning method used for an element (static, relative, absolute, fixed, or sticky).</p>
+                  <a class="btn_primary" href='#'>Read More</a>
+                </div>
+               
+              </div>
+            </div>
           </div>
           
           <div id="Paris" class="tabcontent">
@@ -52,7 +62,10 @@
           </div>
         </article>
        
-        <aside class="aside aside-2">Aside 2</aside>
+        <aside class="aside aside-2">
+          <h2>LATEST CONFESSIONS</h2>
+          <p>gkjhgjhgjgfhgfgghfghfhgfgfgfgfgf</p>
+        </aside>
         <footer class="footer">Footer</footer>
       </div>
 
