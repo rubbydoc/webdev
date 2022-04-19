@@ -400,3 +400,41 @@ button::after {
     margin-top: 19px;
   }
   
+  .search-form .search-field {
+    width: 90%;
+    padding-right: 40px;
+}
+
+input{
+  box-sizing: border-box;
+    max-width: 100%;
+    margin: 0;
+    padding: 7px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+.search-form .search-submit {
+  width: 40px;
+  padding-left: 0;
+  padding-right: 0;
+  position: absolute;
+  right: 90px;
+  left: auto;
+  top: 105px;
+ 
+  border-color: transparent;
+  background-color: transparent;
+  color: inherit;
+  box-shadow: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  opacity: .666;
+  cursor: pointer;
+}
+
+.search-form{
+  margin-top: -44px;
+}
