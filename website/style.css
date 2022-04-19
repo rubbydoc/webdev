@@ -443,8 +443,10 @@ input{
   display:none;
   position: absolute;
   background-color: #f1f1f1;
-  width: 120px;
+  width: 140px;
   margin-top: 50px;
+
+  z-index: 2;
   
  
 }
