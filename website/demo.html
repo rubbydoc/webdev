@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../website/script.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+<link href="http://fonts.cdnfonts.com/css/cera-round-pro" rel="stylesheet">
+                
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/d509d646fc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper" >
+        <header class="header">
+          <!-- <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul> -->
+          
+
+          <div class="topnav " >
+            <p style="font-family: 'Amatic SC'; font-size:60px; margin-top:-5px; margin-bottom:-50px;margin-left:40px">exprezzIT</p>
+            <!-- <a class="active" href="#home"><img src="exprezzit.png" alt=""></a>
+              
+           -->
+           
+            <div id="sidePanel" class="topnav-right" style="font-weight: 500; " >
+             
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="#confess">Confess Now</a>
+              <a href="#advice">Ask Advice</a>
+
+
+               <div class="dropdown">
+                <a href="#cate" onclick="myFunction()" class="dropbtn" >Categories</a>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+               </div>
+
+
+               <a href="#profile">Profile</a>
+               <i class="fa fa-solid fa-grip" style="font-size:30px; position:absolute; right:190px; top:-10px; color: #553d67;"></i>
+               <i class="fa fa-solid fa-square-pen" style="font-size:30px; position:absolute; right:335px; top:-10px; color: #553d67;"></i>
+                <i class="fa fa-solid fa-user " style="font-size:30px; position:absolute; right:65px; top:-10px; color: #553d67;"></i>
+                <i class="fa fa-solid fa-envelope-open-text" style="font-size:30px; position:absolute; right:480px; top:-10px; color: #553d67;"></i>
+               
+                
+                
+             
+            </div>
+            <button class="openbtn" onclick="openNav()">&#9776; </button>
+          </div>
+        </header>
+        <article class="main">
+         
+        </article>
+       
+     
+        <footer class="footer">
+          <p>All rights reserved  |  Terms & Conditions</p>
+        </footer>
+      </div>
+<script>
+    
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+</script>
+    
+</body>
+</html>
