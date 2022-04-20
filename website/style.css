@@ -510,3 +510,7 @@ input{
   background: black;
   color: white;
 }
+
+#sun{
+  display: none;
+}
