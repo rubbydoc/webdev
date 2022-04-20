@@ -505,3 +505,8 @@ input{
  text-align: left;
 }
 
+
+.dark-mode {
+  background: black;
+  color: white;
+}
