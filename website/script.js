@@ -50,3 +50,24 @@ for (i = 0; i < dropdowns.length; i++) {
 }
 
 
+function myFunction2() {
+  document.getElementById("myDropdown2").classList.toggle("show2");
+  
+  }
+  
+
+  
+  window.onclick = function(event) {
+    
+  if (!event.target.matches('.dropbtn2')) {
+  var dropdown = document.getElementsByClassName("dropdown-content2");
+  var j;
+  for (j = 0; j < dropdown.length; j++) {
+    var openDropdown = dropdown[j];
+    if (openDropdown.classList.contains('show2')) {
+      openDropdown.classList.remove('show2');
+    }
+  }
+  }
+  }
+

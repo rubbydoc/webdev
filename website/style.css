@@ -460,3 +460,48 @@ input{
 .show {display:block;
 
 }
+
+.dropdown-content a:hover{
+
+  background-color: #ddd;
+ width: 100px;
+ text-align: left;
+}
+
+
+
+
+
+.dropdown-content2 {
+  display:none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 120px;
+  margin-top: 50px;
+
+  z-index: 2;
+  
+ 
+}
+.dropdown-content2 a {
+  color: black;
+
+  text-decoration: none;
+  
+}
+
+.show2 {display:block;
+
+}
+
+.hide{
+  display: none;
+}
+
+.dropdown-content2 a:hover{
+
+  background-color: #ddd;
+ width: 80px;
+ text-align: left;
+}
+
