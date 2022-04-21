@@ -25,12 +25,13 @@
 
 #cssProp{
     padding: 5px;
+    margin-top: 40px;
 }
 
 #target{
     margin-left:80px;
     margin-top: 50px;
-    margin-bottom: 90px;
+   
  
 }
 
@@ -131,7 +132,6 @@
     border-bottom: .7em  solid red;
     border-left:   .3em solid transparent;
   
-    /* Controlls the size of the stars. */
     font-size: 60px;
 }
 
