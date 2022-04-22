@@ -197,10 +197,6 @@ $(document).ready(function () {
 
 
     });
-
-
-
-
     
     $(".moon").click(function () {
         $("#target").removeClass();
@@ -575,6 +571,8 @@ $(document).ready(function () {
             flag = false;
         } else {}
 
+     
+
         
     });
 
@@ -606,7 +604,7 @@ $(document).ready(function () {
             flag = false;
         } else {}
 
-        
+
     });
 
     $(".cross").click(function () {
