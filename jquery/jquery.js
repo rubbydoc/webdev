@@ -24,6 +24,10 @@ $(document).ready(function () {
 
         $(".black").click(function () {
             $("#target").css("background", "black");
+            $("#target").css("border-bottom", "0");
+            $("#target").css("box-shadow"," 0px 0px 0 0 black");
+
+
             flag = true;
             $("#cssProp").empty();
             if (flag) {
@@ -35,6 +39,10 @@ $(document).ready(function () {
         });
         $(".red").click(function () {
             $("#target").css("background", "#c00000");
+            $("#target").css("border-bottom", "0");
+            $("#target").css("box-shadow"," 0px 0px 0 0 black");
+
+
             flag = true;
             $("#cssProp").empty();
             if (flag) {
@@ -47,6 +55,10 @@ $(document).ready(function () {
         });
         $(".yellowGreen").click(function () {
             $("#target").css("background", "#92d050");
+            $("#target").css("border-bottom", "0");
+            $("#target").css("box-shadow"," 0px 0px 0 0 black");
+
+
             flag = true;
             $("#cssProp").empty();
             if (flag) {
@@ -57,6 +69,10 @@ $(document).ready(function () {
         });
         $(".blue").click(function () {
             $("#target").css("background", "#002060");
+            $("#target").css("border-bottom", "0");
+            $("#target").css("box-shadow"," 0px 0px 0 0 black");
+
+
             flag = true;
             $("#cssProp").empty();
             if (flag) {
@@ -67,6 +83,10 @@ $(document).ready(function () {
         });
         $(".skyBlue").click(function () {
             $("#target").css("background", "#5b9bd5");
+            $("#target").css("border-bottom", "0");
+            $("#target").css("box-shadow"," 0px 0px 0 0 black");
+
+
             flag = true;
             $("#cssProp").empty();
             if (flag) {
@@ -77,6 +97,10 @@ $(document).ready(function () {
         });
         $(".lightOrange").click(function () {
             $("#target").css("background", "#ffc000");
+            $("#target").css("border-bottom", "0");
+            $("#target").css("box-shadow"," 0px 0px 0 0 black");
+
+
             flag = true;
             $("#cssProp").empty();
             if (flag) {
@@ -87,6 +111,10 @@ $(document).ready(function () {
         });
         $(".green").click(function () {
             $("#target").css("background", "#00b050");
+            $("#target").css("border-bottom", "0");
+            $("#target").css("box-shadow"," 0px 0px 0 0 black");
+
+
             flag = true;
             $("#cssProp").empty();
             if (flag) {
@@ -97,6 +125,10 @@ $(document).ready(function () {
         });
         $(".purple").click(function () {
             $("#target").css("background", "#7030a0");
+            $("#target").css("border-bottom", "0");
+            $("#target").css("box-shadow"," 0px 0px 0 0 black");
+
+
             flag = true;
             $("#cssProp").empty();
             if (flag) {
@@ -107,6 +139,10 @@ $(document).ready(function () {
         });
         $(".orange").click(function () {
             $("#target").css("background", "#ed7d31");
+            $("#target").css("border-bottom", "0");
+            $("#target").css("box-shadow"," 0px 0px 0 0 black");
+
+
             flag = true;
             $("#cssProp").empty();
             if (flag) {
@@ -117,6 +153,10 @@ $(document).ready(function () {
         });
         $(".yellow").click(function () {
             $("#target").css("background", "#ffff00");
+            $("#target").css("border-bottom", "0");
+            $("#target").css("box-shadow"," 0px 0px 0 0 black");
+
+
             flag = true;
             $("#cssProp").empty();
             if (flag) {
@@ -127,6 +167,10 @@ $(document).ready(function () {
         });
         $(".lightblue").click(function () {
             $("#target").css("background", "#00b0f0");
+            $("#target").css("border-bottom", "0");
+            $("#target").css("box-shadow"," 0px 0px 0 0 black");
+
+
             flag = true;
             $("#cssProp").empty();
             if (flag) {
@@ -137,6 +181,11 @@ $(document).ready(function () {
         });
         $(".pink").click(function () {
             $("#target").css("background", "#f2cff3");
+            $("#target").css("border-bottom", "0");
+            $("#target").css("box-shadow"," 0px 0px 0 0 black");
+
+
+
             flag = true;
             $("#cssProp").empty();
             if (flag) {
@@ -163,24 +212,348 @@ $(document).ready(function () {
             $("#cssProp").append("width: 100px;<br> height: 100px;<br> border-radius: 50%;<br> box-shadow: 15px 15px 0 0 red;<br> margin-top: 70px;");
 
             flag = false;
-        } else {
+        } else {}
 
-        }
+        $(".black").click(function () {
+            $("#target").css("box-shadow"," 15px 15px 0 0 black");
+            $("#target").css("background", "transparent");
+            $("#target").css("border-bottom", "0");
+
+            flag = true;
+            $("#cssProp").empty();
+            if (flag) {
+                $("#cssProp").append("width: 100px;<br> height: 100px;<br> border-radius: 50%;<br> box-shadow: 15px 15px 0 0 #0000;<br> margin-top: 70px;");
+
+                flag = false;
+            } else { }
+
+        });
+        $(".red").click(function () {
+            $("#target").css("box-shadow"," 15px 15px 0 0 #c00000");
+            $("#target").css("border-bottom", "0");
+
+            $("#target").css("background", "transparent");
+            flag = true;
+            $("#cssProp").empty();
+            if (flag) {
+                $("#cssProp").append("width: 100px;<br> height: 100px;<br> border-radius: 50%;<br> box-shadow: 15px 15px 0 0 #c00000;<br> margin-top: 70px;");
+
+                flag = false;
+            } else { }
+
+
+        });
+        $(".yellowGreen").click(function () {
+            $("#target").css("box-shadow"," 15px 15px 0 0 #92d050");
+            $("#target").css("border-bottom", "0");
+
+            $("#target").css("background", "transparent");
+            flag = true;
+            $("#cssProp").empty();
+            if (flag) {
+                $("#cssProp").append("width: 100px;<br> height: 100px;<br> border-radius: 50%;<br> box-shadow: 15px 15px 0 0 #92d050;<br> margin-top: 70px;");
+
+                flag = false;
+            } else { }
+        });
+        $(".blue").click(function () {
+            $("#target").css("box-shadow"," 15px 15px 0 0 #002060");
+            $("#target").css("border-bottom", "0");
+
+            $("#target").css("background", "transparent");
+            flag = true;
+            $("#cssProp").empty();
+            if (flag) {
+                $("#cssProp").append("width: 100px;<br> height: 100px;<br> border-radius: 50%;<br> box-shadow: 15px 15px 0 0 #002060;<br> margin-top: 70px;");
+
+                flag = false;
+            } else { }
+        });
+        $(".skyBlue").click(function () {
+            $("#target").css("box-shadow"," 15px 15px 0 0 #5b9bd5");
+            $("#target").css("border-bottom", "0");
+
+            $("#target").css("background", "transparent");
+            flag = true;
+            $("#cssProp").empty();
+            if (flag) {
+                $("#cssProp").append("width: 100px;<br> height: 100px;<br> border-radius: 50%;<br> box-shadow: 15px 15px 0 0 #5b9bd5;<br> margin-top: 70px;");
+
+                flag = false;
+            } else { }
+        });
+        $(".lightOrange").click(function () {
+            $("#target").css("box-shadow"," 15px 15px 0 0 #ffc000");
+            $("#target").css("border-bottom", "0");
+
+            $("#target").css("background", "transparent");
+            flag = true;
+            $("#cssProp").empty();
+            if (flag) {
+                $("#cssProp").append("width: 100px;<br> height: 100px;<br> border-radius: 50%;<br> box-shadow: 15px 15px 0 0 #ffc000;<br> margin-top: 70px;");
+
+                flag = false;
+            } else { }
+        });
+        $(".green").click(function () {
+            $("#target").css("box-shadow"," 15px 15px 0 0 #00b050");
+            $("#target").css("border-bottom", "0");
+
+            $("#target").css("background", "transparent");
+            flag = true;
+            $("#cssProp").empty();
+            if (flag) {
+                $("#cssProp").append("width: 100px;<br> height: 100px;<br> border-radius: 50%;<br> box-shadow: 15px 15px 0 0 #00b050;<br> margin-top: 70px;");
+
+                flag = false;
+            } else { }
+        });
+        $(".purple").click(function () {
+            $("#target").css("box-shadow"," 15px 15px 0 0 #7030a0");
+            $("#target").css("border-bottom", "0");
+
+            $("#target").css("background", "transparent");
+            flag = true;
+            $("#cssProp").empty();
+            if (flag) {
+                $("#cssProp").append("width: 100px;<br> height: 100px;<br> border-radius: 50%;<br> box-shadow: 15px 15px 0 0 #7030a0;<br> margin-top: 70px;");
+
+                flag = false;
+            } else { }
+        });
+        $(".orange").click(function () {
+            $("#target").css("box-shadow"," 15px 15px 0 0 #ed7d31");
+            $("#target").css("border-bottom", "0");
+
+            $("#target").css("background", "transparent");
+            flag = true;
+            $("#cssProp").empty();
+            if (flag) {
+                $("#cssProp").append("width: 100px;<br> height: 100px;<br> border-radius: 50%;<br> box-shadow: 15px 15px 0 0 #ed7d31;<br> margin-top: 70px;");
+
+                flag = false;
+            } else { }
+        });
+        $(".yellow").click(function () {
+            $("#target").css("box-shadow"," 15px 15px 0 0 #ffff00");
+            $("#target").css("border-bottom", "0");
+
+            $("#target").css("background", "transparent");
+            flag = true;
+            $("#cssProp").empty();
+            if (flag) {
+                $("#cssProp").append("width: 100px;<br> height: 100px;<br> border-radius: 50%;<br> box-shadow: 15px 15px 0 0 #ffff00;<br> margin-top: 70px;");
+
+                flag = false;
+            } else { }
+        });
+        $(".lightblue").click(function () {
+            $("#target").css("box-shadow"," 15px 15px 0 0 #00b0f0");
+            $("#target").css("border-bottom", "0");
+
+            $("#target").css("background", "transparent");
+            flag = true;
+            $("#cssProp").empty();
+            if (flag) {
+                $("#cssProp").append("width: 100px;<br> height: 100px;<br> border-radius: 50%;<br> box-shadow: 15px 15px 0 0 #00b0f0;<br> margin-top: 70px;");
+
+                flag = false;
+            } else { }
+        });
+
+        $(".pink").click(function () {
+            $("#target").css("box-shadow"," 15px 15px 0 0 #f2cff3");
+            $("#target").css("border-bottom", "0");
+
+            $("#target").css("background", "transparent");
+
+            flag = true;
+            $("#cssProp").empty();
+            if (flag) {
+                $("#cssProp").append("width: 100px;<br> height: 100px;<br> border-radius: 50%;<br> box-shadow: 15px 15px 0 0 #f2cff3;<br> margin-top: 70px;");
+
+                flag = false;
+            } else { }
+        });
+
+        
     });
 
     $(".triangle-up").click(function () {
         $("#target").removeClass();
         $("#target").removeAttr("style");
         $("#target").addClass("triangle-up");
+        $(".pink").empty();
+
 
         flag = true;
         $("#cssProp").empty();
         if (flag) {
             $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid red <br> ");
             flag = false;
-        } else {
+        } else {}
 
-        }
+        $(".black").click(function () {
+            $("#target").css("border-bottom", "100px solid black");
+            $("#target").css("background", "transparent");
+            $("#target").css("box-shadow"," 0px 0px 0 0 #f2cff3");
+
+            flag = true;
+            $("#cssProp").empty();
+            if (flag) {
+                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #hg <br> ");
+
+                flag = false;
+            } else { }
+
+        });
+        $(".red").click(function () {
+            $("#target").css("border-bottom", "100px solid #c00000");
+            $("#target").css("background", "transparent");
+            $("#target").css("box-shadow"," 0px 0px 0 0 #f2cff3");
+
+            flag = true;
+            $("#cssProp").empty();
+            if (flag) {
+                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #hg <br> ");
+
+                flag = false;
+            } else { }
+
+
+        });
+        $(".yellowGreen").click(function () {
+            $("#target").css("border-bottom", "100px solid #92d050");
+            $("#target").css("background", "transparent");
+            $("#target").css("box-shadow"," 0px 0px 0 0 #f2cff3");
+
+            flag = true;
+            $("#cssProp").empty();
+            if (flag) {
+                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #hg <br> ");
+
+                flag = false;
+            } else { }
+        });
+        $(".blue").click(function () {
+            $("#target").css("border-bottom", "100px solid #002060");
+            $("#target").css("background", "transparent");
+            $("#target").css("box-shadow"," 0px 0px 0 0 #f2cff3");
+
+            flag = true;
+            $("#cssProp").empty();
+            if (flag) {
+                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #hg <br> ");
+
+                flag = false;
+            } else { }
+        });
+        $(".skyBlue").click(function () {
+            $("#target").css("border-bottom", "100px solid #5b9bd5");
+            $("#target").css("background", "transparent");
+            $("#target").css("box-shadow"," 0px 0px 0 0 #f2cff3");
+
+            flag = true;
+            $("#cssProp").empty();
+            if (flag) {
+                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #hg <br> ");
+
+                flag = false;
+            } else { }
+        });
+        $(".lightOrange").click(function () {
+            $("#target").css("border-bottom", "100px solid #ffc000");
+            $("#target").css("background", "transparent");
+            $("#target").css("box-shadow"," 0px 0px 0 0 #f2cff3");
+
+            flag = true;
+            $("#cssProp").empty();
+            if (flag) {
+                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #hg <br> ");
+
+                flag = false;
+            } else { }
+        });
+        $(".green").click(function () {
+            $("#target").css("border-bottom", "100px solid #00b050");
+            $("#target").css("background", "transparent");
+            $("#target").css("box-shadow"," 0px 0px 0 0 #f2cff3");
+
+            flag = true;
+            $("#cssProp").empty();
+            if (flag) {
+                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #hg <br> ");
+
+                flag = false;
+            } else { }
+        });
+        $(".purple").click(function () {
+            $("#target").css("border-bottom", "100px solid #7030a0");
+            $("#target").css("background", "transparent");
+            $("#target").css("box-shadow"," 0px 0px 0 0 #f2cff3");
+
+            flag = true;
+            $("#cssProp").empty();
+            if (flag) {
+                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #hg <br> ");
+
+                flag = false;
+            } else { }
+        });
+        $(".orange").click(function () {
+            $("#target").css("border-bottom", "100px solid #ed7d31");
+            $("#target").css("background", "transparent");
+            $("#target").css("box-shadow"," 0px 0px 0 0 #f2cff3");
+
+            flag = true;
+            $("#cssProp").empty();
+            if (flag) {
+                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #hg <br> ");
+
+                flag = false;
+            } else { }
+        });
+        $(".yellow").click(function () {
+            $("#target").css("border-bottom", "100px solid #ffff00");
+            $("#target").css("background", "transparent");
+            $("#target").css("box-shadow"," 0px 0px 0 0 #f2cff3");
+
+            flag = true;
+            $("#cssProp").empty();
+            if (flag) {
+                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #ffff00 <br> ");
+
+                flag = false;
+            } else { }
+        });
+        $(".lightblue").click(function () {
+            $("#target").css("border-bottom", "100px solid #00b0f0");
+            $("#target").css("background", "transparent");
+            $("#target").css("box-shadow"," 0px 0px 0 0 #f2cff3");
+
+            flag = true;
+            $("#cssProp").empty();
+            if (flag) {
+                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #00b0f0 <br> ");
+
+                flag = false;
+            } else { }
+        });
+
+        $(".pink").click(function () {
+            $("#target").css("border-bottom", "100px solid #f2cff3");
+            $("#target").css("background", "transparent");
+            $("#target").css("box-shadow"," 0px 0px 0 0 #f2cff3");
+
+
+            flag = true;
+            $("#cssProp").empty();
+            if (flag) {
+                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #f2cff3 <br> ");
+
+                flag = false;
+            } else { }
+        });
 
         
 
