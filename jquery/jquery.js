@@ -401,7 +401,7 @@ $(document).ready(function () {
             flag = true;
             $("#cssProp").empty();
             if (flag) {
-                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #hg <br> ");
+                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #0000 <br> ");
 
                 flag = false;
             } else { }
@@ -415,7 +415,7 @@ $(document).ready(function () {
             flag = true;
             $("#cssProp").empty();
             if (flag) {
-                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #hg <br> ");
+                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #c00000 <br> ");
 
                 flag = false;
             } else { }
@@ -430,7 +430,7 @@ $(document).ready(function () {
             flag = true;
             $("#cssProp").empty();
             if (flag) {
-                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #hg <br> ");
+                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #92d050 <br> ");
 
                 flag = false;
             } else { }
@@ -443,7 +443,7 @@ $(document).ready(function () {
             flag = true;
             $("#cssProp").empty();
             if (flag) {
-                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #hg <br> ");
+                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #002060 <br> ");
 
                 flag = false;
             } else { }
@@ -456,7 +456,7 @@ $(document).ready(function () {
             flag = true;
             $("#cssProp").empty();
             if (flag) {
-                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #hg <br> ");
+                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #5b9bd5 <br> ");
 
                 flag = false;
             } else { }
@@ -469,7 +469,7 @@ $(document).ready(function () {
             flag = true;
             $("#cssProp").empty();
             if (flag) {
-                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #hg <br> ");
+                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #ffc000 <br> ");
 
                 flag = false;
             } else { }
@@ -482,7 +482,7 @@ $(document).ready(function () {
             flag = true;
             $("#cssProp").empty();
             if (flag) {
-                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #hg <br> ");
+                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #00b050 <br> ");
 
                 flag = false;
             } else { }
@@ -495,7 +495,7 @@ $(document).ready(function () {
             flag = true;
             $("#cssProp").empty();
             if (flag) {
-                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #hg <br> ");
+                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #7030a0 <br> ");
 
                 flag = false;
             } else { }
@@ -508,7 +508,7 @@ $(document).ready(function () {
             flag = true;
             $("#cssProp").empty();
             if (flag) {
-                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #hg <br> ");
+                $("#cssProp").append("width: 0;<br>height: 0;<br>  border-left: 50px solid transparent;<br> border-right: 50px solid transparent; <br>border-bottom: 100px solid #ed7d31 <br> ");
 
                 flag = false;
             } else { }
@@ -573,9 +573,9 @@ $(document).ready(function () {
             $("#cssProp").append("position: relative;<br> margin-top: 2px;<br> width: 0;<br> height: 0; <br> margin-left: .9em;<br> margin-right: .9em;<br> margin-bottom: 1.2em;<br> border-right:  .3em solid transparent;<br> border-bottom: .7em  solid red;<br> border-left:   .3em solid transparent; <br>font-size: 60px; <br>  content: ''; <br>display: block;<br> width: 0;<br> height: 0;<br> position: absolute;<br>top: .6em;<br>left: -1em;<br> border-right:  1em solid transparent;<br> border-bottom: .7em  solid red;<br> border-left:   1em solid transparent;<br>transform: rotate(-35deg); <br>  content: ''; <br>display: block; <br>width: 0;<br> height: 0;<br> position: absolute;<br>top: .6em;<br>left: -1em;<br>border-right:  1em solid transparent;<br> border-bottom: .7em  solid red;<br>border-left:   1em solid transparent;<br>transform: rotate(-35deg);<br>transform: rotate(35deg);");
 
             flag = false;
-        } else {
+        } else {}
 
-        }
+        
     });
 
     $(".octagon").click(function () {
@@ -604,9 +604,9 @@ $(document).ready(function () {
         if (flag) {
             $("#cssProp").append(" position: relative;<br>width: 100px;<br>height: 90px;<br> margin-top: 30px;<br> position: absolute;<br>content: '';<br>left: 50px;<br>top: 0;<br>width: 50px;<br>height: 80px;<br>background: red;<br>-moz - border - radius: 50px 50px 0 0;<br>border - radius: 50px 50px 0 0;<br>-webkit - transform: rotate(-45deg);<br>-moz - transform: rotate(-45deg);<br>-ms - transform: rotate(-45deg);<br>-o - transform: rotate(-45deg);<br>transform: rotate(-45deg);<br>-webkit - transform - origin: 0 100 %;<br>-moz - transform - origin: 0 100 %;<br>-ms - transform - origin: 0 100 %;<br>-o - transform - origin: 0 100 %;<br>transform - origin: 0 100 %;<br> left: 0;<br>-webkit-transform: rotate(45deg);<br>-moz-transform: rotate(45deg);<br>-ms-transform: rotate(45deg);<br>-o-transform: rotate(45deg);<br>transform: rotate(45deg);<br>-webkit-transform-origin: 100% 100%;<br>-moz-transform-origin: 100% 100%;<br>-ms-transform-origin: 100% 100%;<br>-o-transform-origin: 100% 100%;<br>transform-origin: 100% 100%; ");
             flag = false;
-        } else {
+        } else {}
 
-        }
+        
     });
 
     $(".cross").click(function () {
