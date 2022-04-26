@@ -12,7 +12,7 @@ $(document).ready(function(){
 
     $(document).on('click','.fa-trash, li', function(){
        
-        $(this).toggleClass("strike");
+        $(this).parent('li').toggleClass("strike");
         $(this).fadeOut();
         
 
