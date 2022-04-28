@@ -2,21 +2,21 @@ $(document).ready(function () {
   $("#moon").click(function () {
     $("#moon").hide();
     $("#sun").show();
-    $(".topnav-right a").css("color", "white");
-    $("form button").css("color", "white");
-    $("form input").css("color", "white");
+    $(".topnav-right a").css("color", "#bdc1c6");
+    $("form button").css("color", "#bdc1c6");
+    $("form input").css("color", "#bdc1c6");
     $(".tablinks active").css("color", "black");
-    $("#tablink").css("color", "white");
-    $(".fa").css("color", "white");
-    $("p").css("color", "white");
-    $("h1").css("color", "white");
-    $("h2").css("color", "white");
+    $("#tablink").css("color", "#bdc1c6");
+    $(".fa").css("color", "#bdc1c6");
+    $("p").css("color", "#FFFF00");
+    $("h1").css("color", "#bdc1c6");
+    $("h2").css("color", "#bdc1c6");
     $(".header").css("background", "#1c1c1c");
-    $(".wrapper").css("background", "black");
-    $(".blog_post").css("background", "black");
+    $(".wrapper").css("background", "#141e24");
+    $(".blog_post").css("background", "#141e24");
     $(".topnav").css("background", "#1c1c1c");
     $(".footer").css("background", "#1c1c1c");
-    $("#sun").css("color", "white");
+    $("#sun").css("color", "#bdc1c6");
 
     $(document).ready(function () {
       $("#active").click(function () {

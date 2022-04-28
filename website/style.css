@@ -536,3 +536,36 @@ input {
 #sun {
   display: none;
 }
+
+.content p{
+  margin: 0px 100px ;
+}
+.socials{
+  display: flex;
+  margin: 30px 100px;
+}
+
+.socials i{
+  margin-right: -95px;
+}
+
+.content h1{
+  margin-left: 100px;
+  margin-top: -8px;
+}
+
+.like{
+  display: flex;
+  margin: 0px 100px ;
+}
+
+.comment{
+  margin: 0px 100px ;
+
+}
+
+.comment input{
+  border-radius: 20px;
+}
+
+
