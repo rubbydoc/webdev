@@ -42,17 +42,33 @@
               <a href="#advice" class="confess">Ask Advice</a>
 
 
-               <div class="dropdown">
-                <a href="#cate" onclick="myFunction()" class="dropbtn" >Categories</a>
+              <div class="dropdown">
+                <a href="#cate" onclick="myFunction()" class="dropbtn">Categories</a>
                 <div id="myDropdown" class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
+                  <a href="#">Love</a>
+                  <a href="#">Hate</a>
+                  <a href="#">Relationships</a>
+                  <a href="#">Friendship</a>
+                  <a href="#">Family</a>
+                  <a href="#">School</a>
+                  <a href="#">Childhood</a>
+                  <a href="#">Adult</a>
+                  <a href="#">Work</a>
+                  <a href="#">Religion</a>
+                  <a href="#">Lifestyle</a>
+                  <a href="#">Habits</a>
                 </div>
-               </div>
+              </div>
+    
+    
+              <div class="dropdown2">
+                <a href="#profile" onclick="myFunction2()" class="dropbtn2">Profile</a>
+                <div id="myDropdown2" class="dropdown-content2">
+                  <a href="login.html">Login</a>
+                  <a href="sign.html">Register</a>
+                </div>
+              </div>
 
-
-               <a href="#profile">Profile</a>
                <i class="fa fa-solid fa-grip" style="font-size:30px; position:absolute; right:190px; top:-10px; color: #553d67;"></i>
                <i class="fa fa-solid fa-square-pen" style="font-size:30px; position:absolute; right:335px; top:-10px; color: #553d67;"></i>
                 <i class="fa fa-solid fa-user " style="font-size:30px; position:absolute; right:65px; top:-10px; color: #553d67;"></i>
@@ -110,25 +126,8 @@
           <p>All rights reserved  |  Terms & Conditions</p>
         </footer>
       </div>
-<script>
-    
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-  }
+      <script src="script.js"></script>
 
-  window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
-        }
-      }
-    }
-  }
-</script>
     
 </body>
 </html>
