@@ -33,7 +33,7 @@
           
 
           <div class="topnav " >
-            <p  ><a href="index.html" style="font-family: 'Amatic SC'; font-size:60px; margin-top:-35px; margin-bottom:-50px;margin-left:40px; cursor: pointer;" class="logo" >exprezzIT</a></p>
+            <p  ><a href="index.html" style="font-family: 'Amatic SC'; font-size:60px; margin-top:-27px; margin-bottom:-50px;margin-left:40px; cursor: pointer;" class="logo" >exprezzIT</a></p>
            
             <div id="sidePanel" class="topnav-right" style="font-weight: 500; " >
              
@@ -42,17 +42,33 @@
               <a href="#advice" class="confess">Ask Advice</a>
 
 
-               <div class="dropdown">
-                <a href="#cate" onclick="myFunction()" class="dropbtn" >Categories</a>
+              <div class="dropdown">
+                <a href="#cate" onclick="myFunction()" class="dropbtn">Categories</a>
                 <div id="myDropdown" class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
+                  <a href="#">Love</a>
+                  <a href="#">Hate</a>
+                  <a href="#">Relationships</a>
+                  <a href="#">Friendship</a>
+                  <a href="#">Family</a>
+                  <a href="#">School</a>
+                  <a href="#">Childhood</a>
+                  <a href="#">Adult</a>
+                  <a href="#">Work</a>
+                  <a href="#">Religion</a>
+                  <a href="#">Lifestyle</a>
+                  <a href="#">Habits</a>
                 </div>
-               </div>
+              </div>
+    
+    
+              <div class="dropdown2">
+                <a href="#profile" onclick="myFunction2()" class="dropbtn2">Profile</a>
+                <div id="myDropdown2" class="dropdown-content2">
+                  <a href="login.html">Login</a>
+                  <a href="sign.html">Register</a>
+                </div>
+              </div>
 
-
-               <a href="#profile">Profile</a>
                <i class="fa fa-solid fa-grip" style="font-size:30px; position:absolute; right:190px; top:-10px; color: #553d67;"></i>
                <i class="fa fa-solid fa-square-pen" style="font-size:30px; position:absolute; right:335px; top:-10px; color: #553d67;"></i>
                 <i class="fa fa-solid fa-user " style="font-size:30px; position:absolute; right:65px; top:-10px; color: #553d67;"></i>
@@ -74,17 +90,7 @@
         <p class="category" style="font-weight: 700;color:#7A999B">LOVE</p>
         <h1>My Own Secret</h1>
         <p style="text-align: justify;
-        text-justify: inter-word;">You're the last thing on my mind at night. You fill my every dream. You're the very first thing I think of when I wake up--and you don't know it. So, I am confessing my love to you.
-
-I always miss you when you're gone. I miss you when you're sitting close to me. I miss you when I can't see you smile. I miss you any day that you're not here.
-
-I want you like you'll never know. I want you, body and soul. I see your face, I want your heart. I want your love, I NEED your love, but I won't tell you because I can't. I can't tell you how I feel, because I know you're just my friend. I know that you're happy with that. I know you're not looking for someone to love. I know. But, I don't understand.
-
-I want a day when it's just you and me. I want a day when my heart can tell you how I feel. I pray every day that you'll tell me that you want me the same way I want you. I beg every day to that unseen force that you will one day be mine.
-
-I'm moving away, but I'm leaving my heart with you. Forever and for always, my heart will belong to you. My heart NEEDS you. So please love me or leave me.
-
-Forever and a day, </p>
+        text-justify: inter-word;">You're the last thing on my mind at night. You fill my every dream. You're the very first thing I think of when I wake up--and you don't know it. So, I am confessing my love to you. I always miss you when you're gone. I miss you when you're sitting close to me. I miss you when I can't see you smile. I miss you any day that you're not here. I want you like you'll never know. I want you, body and soul. I see your face, I want your heart. I want your love, I NEED your love, but I won't tell you because I can't. I can't tell you how I feel, because I know you're just my friend. I know that you're happy with that. I know you're not looking for someone to love. I know. But, I don't understand. I want a day when it's just you and me. I want a day when my heart can tell you how I feel. I pray every day that you'll tell me that you want me the same way I want you. I beg every day to that unseen force that you will one day be mine. I'm moving away, but I'm leaving my heart with you. Forever and for always, my heart will belong to you. My heart NEEDS you. So please love me or leave me. Forever and a day. <br><br><br><br><br></p>
         
           <div class="socials">
             <i class="fa-brands fa-facebook" style="color: #3b5998; font-size: 20px;"></i>
@@ -98,7 +104,7 @@ Forever and a day, </p>
          <div class="like">
           <h2>DO YOU LIKE THIS POST?</h2>
           <i class="fa-regular fa-star" style="font-size: 25px; margin-top: 20px; margin-left: 10px; color: #815335;"></i>
-          <p style="margin-top: 22px; margin-left: 4px;"><span>5</span> STARS</p>
+          <p style="margin-top: 22px; margin-left: 4px;"><span>9</span> STARS</p>
          </div>
 
          <div class="comment">
@@ -118,25 +124,8 @@ Forever and a day, </p>
           <p>All rights reserved  |  Terms & Conditions</p>
         </footer>
       </div>
-<script>
-    
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-  }
+      <script src="script.js"></script>
 
-  window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
-        }
-      }
-    }
-  }
-</script>
     
 </body>
 </html>
