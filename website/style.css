@@ -157,9 +157,19 @@ body {
   font-size: 17px;
   /* background-color: #c4c4c4; */
   margin-right: 20px;
-  padding: 10px 20px;
+  padding: 0px 20px;
   /* border-radius: 20px; */
 
+}
+
+.topnav .fa{
+
+  padding-top: px;
+}
+
+.topnav-right a{
+
+  padding-top: 20px;
 }
 
 /* Change the color of links on hover */
@@ -440,7 +450,7 @@ input {
   position: absolute;
   right: 90px;
   left: auto;
-  top: 105px;
+  top: 100px;
 
   border-color: transparent;
   background-color: transparent;
@@ -566,6 +576,5 @@ input {
 
 .comment input{
   border-radius: 20px;
+  width: 50%;
 }
-
-

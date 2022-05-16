@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+  <script src="https://kit.fontawesome.com/d509d646fc.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script src="jquery.js"></script>
+</head>
+<body>
+   <p id="logo">
+      <a href="index.html"   style="font-family: 'Amatic SC'; font-size:60px; margin-top:-27px; margin-bottom:-50px;margin-left:40px; color:#183153; text-decoration:none" class="logo">exprezzIT</a></p>
+    <div class="overlay">
+        <!-- LOGN IN FORM by Omar Dsoky -->
+        <form>
+           <!--   con = Container  for items in the form-->
+           <div class="con">
+           <!--     Start  header Content  -->
+           <header class="head-form">
+              <h2>Sign Up</h2>
+              <!--     A welcome message or an explanation of the login form -->
+              <!-- <p>Oops! You need to login or sign up to send your confessions.</p> -->
+           </header>
+           <!--     End  header Content  -->
+           <br>
+           <div class="field-set">
+             
+              <!--   user name -->
+                 <span class="input-item">
+                   <i class="fa fa-user-circle"></i>
+                 </span>
+                <!--   user name Input-->
+                 <input class="form-input" id="txt-input" type="text" placeholder="@UserName" required>
+             
+              <br>
+              <span class="input-item">
+                <i class="fa-solid fa-envelope"></i>
+              </span>
+             <!--   user name Input-->
+              <input class="form-input" id="txt-input" type="text" placeholder="@email.com" required>
+          
+           <br>
+             
+                   <!--   Password -->
+             
+              <span class="input-item">
+                <i class="fa fa-key"></i>
+               </span>
+              <!--   Password Input-->
+              <input class="form-input" type="password" placeholder="Password" id="pwd"  name="password" required>
+             
+        <!--      Show/hide password  -->
+             <span>
+                <i class="fa fa-eye" aria-hidden="true"  type="button" id="eye"></i>
+             </span>
+             
+             
+              <br>
+        <!--        buttons -->
+        <!--      button LogIn -->
+              <button class="log-in"> Sign Up </button>
+           </div>
+          
+        <!--   other buttons -->
+           <div class="other">
+        <!--      Forgot Password button-->
+              <button class="btn submits frgt-pass">Forgot Password</button>
+        <!--     Sign Up button -->
+              <button class="btn submits login"  id="log">Log In 
+        <!--         Sign Up font icon -->
+              <i class="fa fa-user-plus" aria-hidden="true"></i>
+              </button>
+        <!--      End Other the Division -->
+           </div>
+             
+        <!--   End Conrainer  -->
+          </div>
+          
+          <!-- End Form -->
+        </form>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
