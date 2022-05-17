@@ -95,7 +95,7 @@ document.getElementById("eye").addEventListener("click", function () {
     }
 }, false);
 
-function sendmail() {   
+function admin() {   
   window.location.href = "admin.html";
   return false;
 }
