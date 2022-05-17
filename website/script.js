@@ -99,3 +99,24 @@ function sendmail() {
   window.location.href = "admin.html";
   return false;
 }
+function index(){
+
+  window.location.href = "index.html";
+  return false;
+}
+function index1(){
+
+  window.location.href = "index1.html";
+  return false;
+}
+
+function confess(){
+
+  window.location.href = "confession.html";
+  return false;
+}
+function login(){
+
+  window.location.href = "login.html";
+  return false;
+}

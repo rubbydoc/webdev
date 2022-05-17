@@ -2,8 +2,9 @@ var user = false;
 
 var adminUserName = "admin";
 var adminPass = "admin";
-var users = "user";
-var userPass = "user";
+var name = "user";
+var Pass = "user";
+var email;
 
 
 $(document).ready(function () {
@@ -101,6 +102,8 @@ $(document).ready(function () {
   $(".confess").click(function () {
     if (user == false) {
       window.location = 'login.html';
+    } else if(user==true){
+      return confess();
     }
   });
 
@@ -124,11 +127,40 @@ $(document).ready(function () {
     if ((userName == adminUserName) & (pass == adminPass)) {
       return admin();
 
-    } else if ((userName == users) & (pass == userPass)) {
-      alert("okay na ang user");
+    } else if ((userName == name) & (pass == pass)) {
+      return index1();
+
+
 
     } else {
       alert("invalid username or password");
     }
   });
+});
+
+$(document).ready(function () { 
+  $(".sign").click(function () {
+    
+    user=true;
+ 
+    // name = $("#txt-input").val();
+    // email = $("#txt-email").val();
+    // Pass = $("#pwd").val();
+  
+   
+    return login();
+  });
+});
+
+
+$(document).ready(function () {
+  $(".confess").click(function () {
+    if (user == false) {
+      window.location = 'login.html';
+    }
+    else if(user==true){
+      return confess();
+    }
+  });  
+  
 });
