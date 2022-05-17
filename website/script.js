@@ -94,3 +94,8 @@ document.getElementById("eye").addEventListener("click", function () {
         hide();
     }
 }, false);
+
+function sendmail() {   
+  window.location.href = "admin.html";
+  return false;
+}

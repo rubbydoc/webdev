@@ -1,6 +1,9 @@
 var user = false;
 
-
+var adminUserName = "admin";
+var adminPass = "admin";
+var users = "user";
+var userPass = "user";
 
 
 $(document).ready(function () {
@@ -91,12 +94,12 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $(".fa-paper-plane").click(function () {
-    $(".userComment").append("<i class='fa-solid fa-circle-user' style='font-size: 25px; color: #815335; padding-right:10px; margin-bottom:10px'></i>"+ $(".com").val()+"<br>");
+    $(".userComment").append("<i class='fa-solid fa-circle-user' style='font-size: 25px; color: #815335; padding-right:10px; margin-bottom:10px'></i>" + $(".com").val() + "<br>");
     $(".com").val("");
   });
 
   $(".confess").click(function () {
-    if (user==false){
+    if (user == false) {
       window.location = 'login.html';
     }
   });
@@ -111,4 +114,21 @@ $(document).ready(function () {
   // $(".log-in").click(function () {
   //   window.location = 'confession.html';
   // });
+});
+
+
+$(document).ready(function () {
+  $(".log-in").click(function () {
+    var userName = $("#txt-input").val();
+    var pass = $("#pwd").val();
+    if ((userName == adminUserName) & (pass == adminPass)) {
+      return admin();
+
+    } else if ((userName == users) & (pass == userPass)) {
+      alert("okay na ang user");
+
+    } else {
+      alert("invalid username or password");
+    }
+  });
 });
