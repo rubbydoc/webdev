@@ -7,6 +7,8 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<link href="css/sb-admin-2.min.css" rel="stylesheet">
+
     <style>
         @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
@@ -285,14 +287,42 @@ textarea {
 
             </select>
           </div>
+          <div class="name">
+            <label for="name"></label>
+            <input type="text" placeholder="Others (if category is not on the list) :" name="name" id="name_input">
+          </div>
           <div class="message">
             <label for="message"></label>
             <textarea name="message" placeholder="Express it here..." id="message_input" cols="30" rows="5" required></textarea>
           </div>
           <div class="submit">
-            <input type="submit" value="Send Message" id="form_button" />
+            <input type="submit" value="Send Message" id="form_button" data-toggle="modal" data-target="#sendModal" />
           </div>
         </form><!-- // End form -->
       </div><!-- // End #container -->
+
+
+      <div class="modal fade" id="sendModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                 
+              </div>
+              <div class="modal-body" style="font-family:'Montserrat' ;">Thank you for sending your confession. We will send you an email if your confession is live on our website. </div>
+              <div class="modal-footer">
+                  <button class="btn btn-secondary" type="button" data-dismiss="modal" style="font-family:'Montserrat' ;">OK</button>
+                  <!-- <a class="btn btn-primary" href="login.html">Logout</a> -->
+              </div>
+          </div>
+      </div>
+  </div>
+
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+    
+  
+      
 </body>
 </html>
